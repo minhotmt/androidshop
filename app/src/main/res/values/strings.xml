@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shop Min Kho</string>
+    <string name="title_activity_thongtin">Map</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+</resources>

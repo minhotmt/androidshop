@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+    >
+    <item
+        android:id="@+id/itSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+
+    <item
+        android:id="@+id/itGioHang"
+        android:title="Giỏ hàng"
+        android:icon="@drawable/cart1"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_item_giohang"
+        />
+    <item
+        android:id="@+id/itThongBao"
+        android:title="Giỏ hàng"
+        android:icon="@drawable/ic_notifications_white_18dp"
+        app:showAsAction="always"
+        app:actionLayout="@layout/custom_item_thongbao"
+        />
+
+    <item
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="more"
+        app:showAsAction="always"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/itDangNhap"
+                android:title="Đăng nhập"
+                android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itThongbao"
+                android:title="Thông báo"
+                android:icon="@drawable/ic_notifications_none_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itCaiDat"
+                android:title="Cài đặt"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itTroGiup"
+                android:title="Trợ giúp"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                />
+
+            <item
+                android:id="@+id/itThongTin"
+                android:title="Thông tin cửa hàng"
+                android:icon="@drawable/icon_info"
+                />
+
+        </menu>
+
+
+    </item>
+
+</menu>

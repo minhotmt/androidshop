@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bgToolbar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/bgLogo</item>
+        <item name="android:textColorPrimary">@color/colorFacebook</item>
+        <item name="android:textColorSecondary">@color/colorGoogle</item>
+    </style>
+
+    <style name="menuitemcolor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/bgToolbar</item>
+        <item name="drawerArrowStyle">@style/changecolordrawertoogle</item>
+    </style>
+
+    <style name="changecolordrawertoogle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorFacebook</item>
+    </style>
+
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="RatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:minHeight">23dp</item>
+        <item name="android:maxHeight">25dp</item>
+    </style>
+
+
+</resources>

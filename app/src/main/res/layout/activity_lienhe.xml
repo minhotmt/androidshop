@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f293e"
+    android:orientation="vertical"
+    tools:context="minhnv.xda.edu.banhangonline.activity.LienheActivity">
+    <android.support.v7.widget.Toolbar
+        app:title="Liên hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="#d6b1b1"
+        android:id="@+id/toolbarLienhe"
+        android:background="#8250c7">
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Shop MinKho"
+        android:textSize="25dp"
+        android:textColor="#5f4e4e"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/spiner"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#5f4d4d"
+            android:text="Made by MinKho"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#5f4d4d"
+            android:text="Email: minhotmt@gmail.com"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#5f4d4d"
+            android:text="Hotline: 0123456789"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

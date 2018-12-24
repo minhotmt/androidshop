@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="minhnv.xda.edu.banhangonline.activity.DanhGiaSP">
+    <android.support.v7.widget.Toolbar
+        app:title="Chi tiết đánh giá sản phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="#d6b1b1"
+        android:id="@+id/toolbardanhgia"
+        android:background="@color/bgToolbar"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Viết đánh giá"/>
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="ID sản phẩm:"/>
+        <TextView
+
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtID"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2"/>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5"
+
+            android:orientation="horizontal">
+            <TextView
+
+                android:textSize="18dp"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiêu đề:"/>
+            <TextView
+
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTieuDe"
+                android:text="Tốt"/>
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 ngày trước"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="9"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Bởi"/>
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTenKH"
+                android:text="Nguyễn Hải Long"/>
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="Nội dung:"/>
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDanhGia"
+            android:text="Sản phẩm rất tốt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số sao"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSao"
+            android:text="5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_like"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:layout_marginLeft="2dp"
+                android:layout_gravity="center"
+
+                android:layout_height="wrap_content"
+                android:text="Đánh giá này có hữu ích với bạn không?"/>
+
+
+        </LinearLayout>
+
+        <RatingBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingbar"
+            android:numStars="5"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_shield"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnSentiment"
+            android:text="Sentiment Analysis"/>
+        <TextView
+            android:textColor="@color/bgLogo"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSentiment"
+            android:text="Thích thú 0.6"/>
+
+    </LinearLayout>
+
+</LinearLayout>

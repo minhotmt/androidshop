@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="10"
+    android:orientation="vertical"
+    tools:context="minhnv.xda.edu.banhangonline.activity.ChiTietSanPham">
+    <android.support.v7.widget.Toolbar
+        app:title="Chi tiết sản phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="#baa3a3"
+        android:id="@+id/toolbarchitiet"
+        android:background="#464a4f">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/common_google_signin_btn_icon_dark"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgct"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="#12ec36"
+                android:layout_marginTop="4dp"
+                android:textSize="15dp"
+                android:id="@+id/txttenct"
+                android:text="Tên sản phẩm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#ff0000"
+                android:textSize="15dp"
+                android:id="@+id/txtgiact"
+                android:layout_marginTop="4dp"
+                android:text="Giá sản phẩm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:background="@drawable/spiner"
+                android:layout_margin="10dp"
+                android:padding="1dp"
+                android:id="@+id/soluongct"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center">
+
+            </Spinner>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textColor="#c4ec11"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả sản phẩm" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtmotact"/>
+                <TextView
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:textColor="#c4ec11"
+                    android:textSize="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Đánh giá sản phẩm" />
+                <RatingBar
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rateBar"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtDanhGia"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnXemDanhGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem đánh giá"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/bgLogo"
+            />
+
+        <ImageButton
+            android:id="@+id/btnthemct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_add_shopping_cart_white_24dp"
+            android:layout_weight="3"
+            android:padding="10dp"
+            android:background="@color/colorFacebook"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

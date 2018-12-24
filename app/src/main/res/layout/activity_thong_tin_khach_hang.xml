@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="minhnv.xda.edu.banhangonline.activity.ThongTinKhachHang">
+    <LinearLayout
+        android:padding="20dp"
+        android:background="#111f64"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e73e3e"
+            android:text="Thông tin khách hàng"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/edtTenKH"
+            android:layout_width="match_parent"
+            android:hint="Nhập tên"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:hint="Nhập Email"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtDiaChi"
+            android:hint="Nhập địa chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtSDTKH"
+            android:hint="Nhập số điện thoại"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Button
+                android:background="#111225"
+                android:layout_weight="1"
+                android:text="Xác nhận"
+                android:textColor="#3b7ce3"
+                android:id="@+id/btnXacNhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="5dp"
+                android:background="#111225"
+                android:layout_weight="1"
+                android:textColor="#3b7ce3"
+                android:text="Trở về"
+                android:id="@+id/btnTrove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="30dp"
+    android:layout_height="wrap_content"
+    android:background="@color/bgToolbar">
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_notifications_white_18dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/txtSoLuongThongBao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="0"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/circle"/>
+
+</FrameLayout>

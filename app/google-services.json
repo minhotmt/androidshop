@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "361023633814",
+    "firebase_url": "https://app-ban-hang-187517.firebaseio.com",
+    "project_id": "app-ban-hang-187517",
+    "storage_bucket": "app-ban-hang-187517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361023633814:android:652bedda5abc32c7",
+        "android_client_info": {
+          "package_name": "minhnv.xda.edu.banhangonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361023633814-o2f6g3fb24bp2l5essbirtva75k7lhc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "minhnv.xda.edu.banhangonline",
+            "certificate_hash": "e2b6217330772cb8f13444578b8f239785425b70"
+          }
+        },
+        {
+          "client_id": "361023633814-hknif43kkqm3aqbd98af99huismk20on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbI1q4GgOD6NDtvNUCEJBqem5SiwXu14E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361023633814-hknif43kkqm3aqbd98af99huismk20on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
